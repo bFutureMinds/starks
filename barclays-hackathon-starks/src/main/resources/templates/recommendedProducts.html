@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Facebook</title>
+</head>
+<body>
+<h3>Hello, <span th:text="${facebookProfile.name}">Some User</span>!</h3>
+<b th:text="${facebookProfile.email}">some@email.com</b>
+<h4>We have product(s) recommendation:</h4>
+
+<div th:each="product:${recommendations}">
+    Product :<b th:text="${product.name}"></b>
+    About product :<p th:text="${product.description}">message text</p>
+    <img th:if="${product.picture}" th:src="${product.picture}"/>
+    <hr/>
+</div>
+</body>
+</html>

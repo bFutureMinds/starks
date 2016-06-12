@@ -1,0 +1,51 @@
+@relation customer
+
+@attribute currentCard {Arrival,Carnival,JetBlue,Apple}
+@attribute moments {Marriage, Birthday}
+@attribute ageGroup {AGE_RANGE_17_25,AGE_RANGE_25_35,AGE_RANGE_35_PLUS}
+@attribute location {MT, NMT}
+@attribute offer {Arrival5XT, Arrival5XR, Arrival5XO,Arrival5XDE,Carnival10XT,Carnival5XDE,Carnival10XR,Carnival5XR,Carnival5XT,Carnival10XO,Carnival10XDE,JetBlue10XT,JetBlue2XR,JetBlue5XO,JetBlue3XDE,Apple2XT,Apple10XR,Apple5XO,Apple1XDE}
+
+@data
+Arrival Marriage AGE_RANGE_17_25 MT Arrival5XR
+Arrival Marriage AGE_RANGE_25_35 MT Arrival5XT
+Arrival Marriage AGE_RANGE_35_PLUS MT Arrival5XO
+Arrival Marriage AGE_RANGE_17_25 NMT Arrival5XR
+Arrival Marriage AGE_RANGE_25_35 NMT Arrival5XR
+Arrival Marriage AGE_RANGE_35_PLUS NMT Arrival5XDE
+Arrival Birthday AGE_RANGE_17_25 MT Arrival5XDE
+Arrival Birthday AGE_RANGE_25_35 MT Arrival5XO
+Arrival Birthday AGE_RANGE_35_PLUS MT Arrival5XT
+Arrival Birthday AGE_RANGE_25_35 NMT Arrival5XT
+Arrival Birthday AGE_RANGE_35_PLUS NMT Arrival5XT
+Carnival Marriage AGE_RANGE_17_25 MT Carnival5XR
+Carnival Marriage AGE_RANGE_25_35 MT Carnival5XT
+JetBlue Marriage AGE_RANGE_35_PLUS MT JetBlue5XO
+JetBlue Birthday AGE_RANGE_25_35 MT JetBlue5XO
+Apple Marriage AGE_RANGE_35_PLUS MT Apple5XO
+Apple Birthday AGE_RANGE_25_35 MT Apple5XO
+Carnival Marriage AGE_RANGE_17_25 NMT Carnival5XR
+Carnival Marriage AGE_RANGE_25_35 NMT Carnival5XR
+Carnival Marriage AGE_RANGE_35_PLUS NMT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_17_25 MT Carnival5XDE
+Carnival Birthday AGE_RANGE_35_PLUS MT Carnival5XT
+Carnival Birthday AGE_RANGE_17_25 NMT Carnival5XT
+Carnival Birthday AGE_RANGE_25_35 NMT Carnival5XT
+Carnival Birthday AGE_RANGE_35_PLUS NMT Carnival5XT

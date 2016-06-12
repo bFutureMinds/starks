@@ -1,0 +1,27 @@
+<div class="container" data-ng-controller="LoginController as vm" style="margin-top: 100px;margin-bottom: 100px;">
+    <div class="row">
+        <div class="col-md-8">
+            <img alt="Browse our cards" class="img-responsive"
+                 src="img/browseCards.png">
+        </div>
+        <div class="col-md-4">
+            <div class="form-login"
+                 style="background-color: #EDEDED; padding-top: 20px; padding-bottom: 25px; padding-left: 20px; padding-right: 20px; border-radius: 15px; border-color:#d2d2d2; border-width: 5px; box-shadow:0 1px 0 #cfcfcf;">
+                <h4 style="border:0 solid #fff; border-bottom-width:1px; padding-bottom:10px; text-align: center;">
+                    Please Login</h4>
+                <input type="text" id="userName" class="form-control input-sm chat-input" style="border-radius: 10px;"
+                       data-ng-model="vm.email" placeholder="Email"/>
+                </br>
+                <input type="text" id="userPassword" class="form-control input-sm chat-input"
+                       style="border-radius: 10px;" placeholder="Password"/>
+                </br>
+                <div class="wrapper">
+            <span class="group-btn">
+                <a data-ng-click="vm.login()" class="btn btn-primary btn-md">login <i class="fa fa-sign-in"></i></a>
+            </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

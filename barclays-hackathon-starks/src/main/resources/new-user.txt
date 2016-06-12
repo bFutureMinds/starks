@@ -1,0 +1,57 @@
+@relation newuser
+
+@attribute moments {Marriage, Birthday}
+@attribute ageGroup {AGE_RANGE_17_25,AGE_RANGE_25_35,AGE_RANGE_35_PLUS}
+@attribute location {MT, NMT}
+@attribute offer{Arrival,Carnival,JetBlue,Apple}
+
+
+@data
+Marriage AGE_RANGE_17_25 MT Arrival
+Marriage AGE_RANGE_25_35 MT Arrival
+Marriage AGE_RANGE_35_PLUS MT Carnival
+Marriage AGE_RANGE_17_25 NMT Carnival
+Marriage AGE_RANGE_25_35 NMT Carnival
+Marriage AGE_RANGE_35_PLUS NMT JetBlue
+Birthday AGE_RANGE_17_25 MT JetBlue
+Birthday AGE_RANGE_25_35 MT Carnival
+Birthday AGE_RANGE_35_PLUS MT JetBlue
+Birthday AGE_RANGE_17_25 NMT JetBlue
+Birthday AGE_RANGE_25_35 NMT Carnival
+Birthday AGE_RANGE_35_PLUS NMT Apple
+Marriage AGE_RANGE_17_25 MT Carnival
+Marriage AGE_RANGE_25_35 MT Carnival
+Marriage AGE_RANGE_17_25 MT Apple
+Marriage AGE_RANGE_25_35 MT Apple
+Marriage AGE_RANGE_35_PLUS MT Apple
+Marriage AGE_RANGE_17_25 NMT Arrival
+Marriage AGE_RANGE_25_35 NMT Arrival
+Marriage AGE_RANGE_35_PLUS NMT Arrival
+Birthday AGE_RANGE_17_25 MT Arrival
+Birthday AGE_RANGE_25_35 MT Carnival
+Birthday AGE_RANGE_35_PLUS MT Carnival
+Birthday AGE_RANGE_17_25 NMT Apple
+Birthday AGE_RANGE_25_35 NMT Carnival
+Birthday AGE_RANGE_35_PLUS NMT Carnival
+Marriage AGE_RANGE_17_25 MT Apple
+Marriage AGE_RANGE_25_35 MT Apple
+Marriage AGE_RANGE_35_PLUS MT Carnival
+Marriage AGE_RANGE_17_25 NMT Apple
+Marriage AGE_RANGE_25_35 NMT Apple
+Marriage AGE_RANGE_35_PLUS NMT Apple
+Birthday AGE_RANGE_17_25 MT Carnival
+Birthday AGE_RANGE_25_35 MT Apple
+Birthday AGE_RANGE_35_PLUS MT Apple
+Birthday AGE_RANGE_17_25 NMT Apple
+Birthday AGE_RANGE_25_35 NMT Carnival
+Birthday AGE_RANGE_35_PLUS NMT Carnival
+Marriage AGE_RANGE_35_PLUS MT Carnival
+Marriage AGE_RANGE_17_25 NMT Carnival
+Marriage AGE_RANGE_25_35 NMT Apple
+Marriage AGE_RANGE_35_PLUS NMT Carnival
+Birthday AGE_RANGE_17_25 MT Carnival
+Birthday AGE_RANGE_25_35 MT Carnival
+Birthday AGE_RANGE_35_PLUS MT Carnival
+Birthday AGE_RANGE_17_25 NMT Apple
+Birthday AGE_RANGE_25_35 NMT Arrival
+Birthday AGE_RANGE_35_PLUS NMT Arrival
